@@ -8,8 +8,15 @@ width, height = 640, 480
 screen=pygame.display.set_mode((width, height))
 
 
+bg = pygame.image.load("resources/images/space.png")
+
+#INSIDE OF THE GAME LOOP
+gameDisplay.blit(bg, (0, 0))
+
+#REST OF ITEMS ARE BLIT'D TO SCREEN.
+
 player = pygame.image.load("resources/images/dude.png")
-grass = pygame.image.load("resources/images/space.png")
+
 
 while 1:
     # 5 - clear the screen before drawing it again
