@@ -9,7 +9,7 @@ screen=pygame.display.set_mode((width, height))
 
 
 player = pygame.image.load("resources/images/dude.png")
-
+grass = pygame.image.load("resources/images/space.png")
 
 while 1:
     # 5 - clear the screen before drawing it again
